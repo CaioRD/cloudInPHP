@@ -44,7 +44,7 @@ $ListaDeProdutos = $database->getReference('aula/Produtos/')->getSnapshot();
         <div class="banner">
             <div class="banner_texto">
                 <h1><?php echo $info['nome']; ?></h1>
-
+                <img src="/static/AdobeStock_667327100_Preview." alt="imgagem de loja de roupas">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ducimus. Dolorem eveniet earum architecto delectus beatae maiores sapiente fugit ratione commodi asperiores, officiis voluptatibus fugiat repellendus labore maxime quibusdam atque?</p>
             </div>
         </div>
@@ -135,52 +135,46 @@ $ListaDeProdutos = $database->getReference('aula/Produtos/')->getSnapshot();
                     <h3>Blog</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Tech</a>
+                    <a href="#" class="footer-link">Contato</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adventures</a>
+                    <a href="#" class="footer-link">Sobre</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Music</a>
+                    <a href="#" class="footer-link">Notícias</a>
                 </li>
             </ul>
 
             <ul class="footer-list">
                 <li>
-                    <h3>Products</h3>
+                    <h3>Produtos</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">App</a>
+                    <a href="#" class="footer-link">Destaques</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Desktop</a>
+                    <a href="#" class="footer-link">Catálogo</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Cloud</a>
+                    <a href="#" class="footer-link">Novidades</a>
                 </li>
             </ul>
 
             <div id="footer_subscribe">
-                <h3>Subscribe</h3>
+                <h3>Inscreva-se</h3>
 
                 <p>
-                    Enter your e-mail to get notified about
-                    our news solutions
+                    Digite seu melhor email e saiba mais sobre nossas novidades!
                 </p>
 
                 <div id="input_group">
-                    <input type="email" id="email">
+                    <input type="email" id="email" placeholder="Digite seu email">
                     <button>
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                 </div>
             </div>
-        </div>
-
-        <div id="footer_copyright">
-            &#169
-            2024 all rights reserved
-        </div>
+        </div>       
     </footer>
 </body>
 

@@ -49,13 +49,15 @@ background-color: var(--footer-color);
 .Dir .Conteudo{
     width: 50%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: end;
+    margin-right: -320px;
+    
 }
 .Conteudo a{
     text-decoration: none;
     font-size: 22px;
-    color: #32313d;
+    color: #fff;
     font-weight: 500;
 }
 /* final da nav */
@@ -65,7 +67,7 @@ background-color: var(--footer-color);
 }
 .banner{
     margin-top: 50px;
-    width: 74%;
+    width: 78%;
     height: 100%;
     background-color: #73708c;
     border-radius: 16px;
@@ -95,6 +97,10 @@ background-color: var(--footer-color);
 }
 .catalogo_texto h1{
     margin: 0px;
+}
+.catalogo_texto p{
+    margin-top: 10px;
+    color: #0e0c0c;
 }
 .lista{
     width: 100%;
@@ -143,17 +149,22 @@ footer {
 }
 
 #footer_content {
-    background-color: var(--color-neutral-10);
+    background-color: var(--footer-color);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
 }
 
-#footer_contacts h1 {
+#footer_contacts {
+    color: var(--white-color);
     margin-bottom: 0.75rem;
+    padding-bottom: 10px;
+}
+#footer_contacts p{
+margin-top: 30px;
 }
 
-#footer_social_media {
+/* #footer_social_media {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
@@ -188,7 +199,7 @@ footer {
 
 #whatsapp {
     background-color: #25d366;
-}
+} */
 
 .footer-list {
     display: flex;
@@ -196,9 +207,12 @@ footer {
     gap: 0.75rem;
     list-style: none;
 }
+.footer-list h3{
+    color: var(--white-color);
+}
 
 .footer-list .footer-link {
-    color: var(--color-neutral-30);
+    color: var(--white-color);
     transition: all 0.4s;
 }
 
@@ -212,8 +226,8 @@ footer {
     gap: 1.5rem;
 }
 
-#footer_subscribe p {
-    color: var(--color-neutral-30);
+#footer_subscribe h3, p {
+    color: var(--white-color);
 }
 
 #input_group {
@@ -243,15 +257,6 @@ footer {
 
 #input_group button:hover {
     opacity: 0.8;
-}
-
-#footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-neutral-0);
-    font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
 }
 
 @media screen and (max-width: 768px) {
