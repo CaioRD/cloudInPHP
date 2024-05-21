@@ -183,5 +183,5 @@ $ListaDeProdutos = $database->getReference('aula/Produtos/')->getSnapshot();
         </div>
     </footer>
 </body>
-
+<script></script>
 </html>
